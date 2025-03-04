@@ -187,7 +187,7 @@ def process_excel(file_path):
 
 
 # Groq API Key
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "your_api_key"
 
 # API endpoint
 GROQ_URL ="https://api.groq.com/openai/v1/chat/completions"
@@ -781,7 +781,7 @@ model = tf.keras.models.load_model(r'D:\project_M\surface_defect.h5')
 class_labels = ["Crazing", "Inclusion", "Patches", "Pitted", "Rolled", "Scratches"]
 
 # Groq API details
-GROQ_API_KEY2 = "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"
+GROQ_API_KEY2 = "your_api_key"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # Function to send request to Groq API
@@ -850,7 +850,7 @@ def pre():
 
 
 
-GROQ_API_KEY3 = "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"
+GROQ_API_KEY3 = "your_api_key"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # Function to communicate with Groq API
